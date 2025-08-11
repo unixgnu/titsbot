@@ -1,0 +1,15 @@
+# Токен вашего Telegram бота (получите у @BotFather)
+BOT_TOKEN=PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE
+
+# Путь к файлу базы данных SQLite (опционально)
+DATABASE_PATH=titsbot.db
+
+# Анти-спам (включить/выключить) и длительность кулдауна
+ENFORCE_COOLDOWN=true
+COOLDOWN_SECONDS=43200
+
+# Удача (-100..100): 0 = 50/50, 100 = почти всегда плюс
+LUCK=0
+
+# Админы (ID через запятую) для команды /reset_all
+ADMIN_USER_IDS=1855337325
